@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "Information",
+  "info": {
+    "name": "InformationSeccion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "informationTitle": {
+      "type": "string"
+    },
+    "informationHeading": {
+      "type": "richtext"
+    },
+    "informationMedia": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "informationDate": {
+      "type": "date"
+    }
+  }
+}

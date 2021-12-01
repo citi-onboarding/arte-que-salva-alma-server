@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_footer_social_links",
+  "info": {
+    "name": "footerSocialLink",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "SocialNetwork": {
+      "type": "enumeration",
+      "enum": [
+        "Youtube",
+        "Instagram",
+        "Facebook",
+        "Twitter",
+        "LinkedIn",
+        "Email"
+      ],
+      "required": true
+    },
+    "footerURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
