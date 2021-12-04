@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "collaborations",
+  "info": {
+    "name": "Collaboration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text"
+    }
+  }
+}

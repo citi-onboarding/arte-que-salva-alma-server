@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/collaboration",
+      "handler": "collaboration.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/collaboration",
+      "handler": "collaboration.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/collaboration",
+      "handler": "collaboration.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
