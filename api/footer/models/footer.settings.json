@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "Footer",
+  "info": {
+    "name": "Footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "footerLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "footerCopyright": {
+      "type": "string",
+      "default": "Made with </> and ❤ by Citi"
+    },
+    "footerSocialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.footer-social-link"
+    }
+  }
+}

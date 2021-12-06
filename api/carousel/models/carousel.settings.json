@@ -1,8 +1,14 @@
 {
   "kind": "singleType",
+  "collectionName": "carousel",
+  "info": {
+    "name": "Application::carousel.carousels",
+    "description": ""
+  },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
