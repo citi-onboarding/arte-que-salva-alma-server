@@ -1,0 +1,28 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/secaoidealizadora",
+        "handler": "secaoidealizadora.find",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "PUT",
+        "path": "/secaoidealizadora",
+        "handler": "secaoidealizadora.update",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "DELETE",
+        "path": "/secaoidealizadora",
+        "handler": "secaoidealizadora.delete",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }

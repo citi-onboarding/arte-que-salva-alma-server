@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_page_secaoidealizadoras",
+    "info": {
+      "name": "secaoidealizadora",
+      "icon": "chalkboard-teacher"
+    },
+    "options": {},
+    "attributes": {
+      "TitleIdeal": {
+        "type": "string"
+      },
+      "PhotoIdeal": {
+        "model": "file",
+        "via": "related",
+        "allowedTypes": [
+          "images"
+        ],
+        "plugin": "upload",
+        "required": false,
+        "pluginOptions": {}
+      },
+      "TitleSubIdeal": {
+        "type": "string"
+      },
+      "SubIdeal": {
+        "type": "string"
+      }
+    }
+  }
