@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_conteudos",
+  "info": {
+    "name": "SecaoConteudos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TitleConteudos": {
+      "type": "string",
+      "required": true,
+      "default": "CONTEÚDOS"
+    },
+    "TextConteudo": {
+      "type": "text"
+    },
+    "Video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "TituloPrincipalConteudo": {
+      "type": "string"
+    }
+  }
+}
