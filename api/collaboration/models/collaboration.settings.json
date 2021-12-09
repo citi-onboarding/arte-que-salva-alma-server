@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "carousel",
+  "collectionName": "collaborations",
   "info": {
-    "name": "Application::carousel.carousels",
+    "name": "Collaboration",
     "description": ""
   },
   "options": {
@@ -12,11 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "carousel": {
-      "type": "dynamiczone",
-      "components": [
-        "page.carousel"
-      ]
+    "Text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text"
     }
   }
 }

@@ -18,11 +18,9 @@
       "required": false,
       "pluginOptions": {}
     },
-    "carouselTitle": {
+    "Title": {
       "type": "string"
-    },
-    "carouselHading": {
-      "type": "text"
     }
+
   }
 }

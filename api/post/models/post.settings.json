@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "Post"
+    "name": "Post",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,19 +13,28 @@
   "pluginOptions": {},
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "images": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
     }
   }
 }

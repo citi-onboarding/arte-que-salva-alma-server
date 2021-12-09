@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/carousel",
-      "handler": "carousel.find",
+      "path": "/collaboration",
+      "handler": "collaboration.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/carousel",
-      "handler": "carousel.update",
+      "path": "/collaboration",
+      "handler": "collaboration.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/carousel",
-      "handler": "carousel.delete",
+      "path": "/collaboration",
+      "handler": "collaboration.delete",
       "config": {
         "policies": []
       }

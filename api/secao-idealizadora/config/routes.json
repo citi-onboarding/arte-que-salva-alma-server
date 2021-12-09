@@ -1,0 +1,52 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/secao-idealizadoras",
+        "handler": "secao-idealizadora.find",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "GET",
+        "path": "/secao-idealizadoras/count",
+        "handler": "secao-idealizadora.count",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "GET",
+        "path": "/secao-idealizadoras/:id",
+        "handler": "secao-idealizadora.findOne",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "POST",
+        "path": "/secao-idealizadoras",
+        "handler": "secao-idealizadora.create",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "PUT",
+        "path": "/secao-idealizadoras/:id",
+        "handler": "secao-idealizadora.update",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "DELETE",
+        "path": "/secao-idealizadoras/:id",
+        "handler": "secao-idealizadora.delete",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }
