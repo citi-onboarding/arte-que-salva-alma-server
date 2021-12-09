@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/secao-conteudos",
+      "handler": "secao-conteudos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/secao-conteudos",
+      "handler": "secao-conteudos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/secao-conteudos",
+      "handler": "secao-conteudos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

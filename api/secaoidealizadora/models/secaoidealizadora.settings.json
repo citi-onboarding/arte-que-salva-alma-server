@@ -1,34 +1,34 @@
 {
-  "kind": "singleType",
-  "collectionName": "secaoidealizadoras",
-  "info": {
-    "name": "secaoidealizadora"
-  },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "Title": {
-      "type": "string"
+    "kind": "singleType",
+    "collectionName": "secaoidealizadoras",
+    "info": {
+      "name": "secaoidealizadora"
     },
-    "Photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "options": {
+      "increments": true,
+      "timestamps": true,
+      "draftAndPublish": true
     },
-    "SubTitle": {
-      "type": "string"
-    },
-    "Subscripting": {
-      "type": "string"
+    "pluginOptions": {},
+    "attributes": {
+      "Title": {
+        "type": "string"
+      },
+      "Photo": {
+        "model": "file",
+        "via": "related",
+        "allowedTypes": [
+          "images"
+        ],
+        "plugin": "upload",
+        "required": false,
+        "pluginOptions": {}
+      },
+      "SubTitle": {
+        "type": "string"
+      },
+      "Subscripting": {
+        "type": "string"
+      }
     }
   }
-}
